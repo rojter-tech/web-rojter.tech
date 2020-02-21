@@ -1,0 +1,18 @@
+{
+  "ignition": { "version": "2.2.0" },
+  "passwd": {
+    "users": [
+      {
+        "name": "systemUser",
+        "passwordHash": "$2a$10$qI4dcqdRYhTyBmGCcnHxMumuR8ZUoULd70aPRe/Dmnmp1t7t4cNTC",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDRAJjzbLmyL3Jc6oTTCRuB8xusW/w6zTFtahnrGXMKUxDtKmaj9nnP8Y/jiJcRWNWFRvUp6H+9+hEC8bcuWkG2iCigKcow3y/cC53+S/oPLuF9GmB0+9ZGCyZp6iHLz4+EQHDJjKK63wjZLqAS/Fi7lUYvL//KbdC93ZFz2lpjldq8xWwr+SRF2qeMhkW/PYQ/z+WiA7IQhIQJLD7oUduACczHaGUcf54gvEmOZGOR5gpFjz7vflijGscyBHwn9yj7OBFdfWGfPfXaUmSkd74Sea+Zu0QcaciD2YJuH/mg6kjvxtEeoCkcI/aSXgW9uuNP0Gd9LCtCbcJU6xu0COSst00yIOL0MeBJT9IgKllaUfhlKHiNAwSl+fXyq0P0XmE2j1I5KA59SmcEMiwNS519tNKgWJFDq96v5K3yFE/dVp784QkG3D7X50wyB8m/VuPO9r9ti6uNo/xKrNXKujubYILbTCpEjt3Gy+mVJDkYW0s38ZWDaZSbTvAKtsmaCKPyrSA6sIUInk5zJKxEzzA+kNCPV2RMjLklgMMA7ZpKFthhfMnCtzYsxuCBlC/Aw0UL/DBG9YbVqjipGQtWR279XpxY/lrS/k7b5iFaghAP36n46Mpyl29vIJnOg1Syt7Sgpe1Iww4TRp5W1Lc2SZhhDIku5xx4RUrC76d10PeY8Q== dreuter@kth.se"
+        ]
+      },
+      {
+        "name": "dreuter",
+        "uid": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+# Translation of Plugins - Embed Any Document - Development (trunk) in Swedish
+# This file is distributed under the same license as the Plugins - Embed Any Document - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-12 15:39:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Embed Any Document - Development (trunk)\n"
+
+#: blocks/document/main.js:28
+msgid "embed any document"
+msgstr "bädda in något dokument"
+
+#: blocks/document/main.js:28
+msgid "embed document"
+msgstr "bädda in dokument"
+
+#: blocks/document/main.js:28
+msgid "add document"
+msgstr "lägg till dokument"
+
+#: blocks/document/main.js:25
+msgid "Upload and Embed your documents."
+msgstr "Ladda upp och bädda in dina dokument."
+
+#: blocks/document/modules/inspector.js:70
+msgid "Cache"
+msgstr "Cache"
+
+#: blocks/document/modules/inspector.js:50
+msgid "Width of document either in px or in %"
+msgstr "Bredd på dokumentet antingen i px eller i %"
+
+#: blocks/document/modules/inspector.js:54
+msgid "Height of document either in px or in %"
+msgstr "Höjd på dokumentet antingen i px eller i %"
+
+#: blocks/document/modules/inspector.js:42
+msgid "Default download button text"
+msgstr "Standardtext på knapp för nedladdning"
+
+#: inc/settings.php:64
+msgid "Github"
+msgstr "Github"
+
+#: inc/settings.php:63
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/settings.php:62
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/settings.php:59
+msgid "Designed and developed by"
+msgstr "Designad och utvecklad av"
+
+#: awsm-embed.php:268
+msgid "Embedded Document"
+msgstr "Inbäddat dokument"
+
+#: inc/settings.php:86
+msgid "Quick Help"
+msgstr "Snabb hjälp"
+
+#: awsm-embed.php:178
+msgid "Select"
+msgstr "Välj"
+
+#: inc/settings.php:10
+msgid "General Settings"
+msgstr "﻿Allmänna inställningar"
+
+#: inc/popup.php:30
+msgid "back"
+msgstr "tillbaka"
+
+#: inc/popup.php:74
+msgid "Drive"
+msgstr "Drive"
+
+#: inc/popup.php:73
+msgid "Box"
+msgstr "Ruta"
+
+#: inc/settings.php:38 inc/popup.php:60 blocks/document/modules/inspector.js:42
+msgid "Download Text"
+msgstr "Ladda ner text"
+
+#: inc/popup.php:6
+msgid "Close"
+msgstr "Stängt"
+
+#. translators: %1$s: Service provider
+#: awsm-embed.php:345
+msgid "Add From %1$s"
+msgstr "Lägg till från %1$s"
+
+#: awsm-embed.php:177
+msgid "From URL"
+msgstr "Från URL"
+
+#: inc/settings.php:21 inc/popup.php:49 blocks/document/modules/inspector.js:54
+msgid "Height"
+msgstr "Höjd"
+
+#: inc/popup.php:94
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: inc/settings.php:79
+msgid "Need Help?"
+msgstr "Behöver du hjälp?"
+
+#: inc/settings.php:99 inc/settings.php:100
+msgid "Shortcode & Attributes"
+msgstr "Kortkoder och attribut"
+
+#. Author of the plugin
+msgid "Awsm Innovations"
+msgstr "Awsm Innovations"
+
+#. Plugin URI of the plugin
+msgid "http://awsm.in/embed-any-documents"
+msgstr "http://awsm.in/embed-any-documents"
+
+#. Author URI of the plugin
+msgid "https://awsm.in"
+msgstr "https://awsm.in"
+
+#: inc/settings.php:104 inc/settings.php:105
+msgid "FAQs"
+msgstr "Vanliga frågor"
+
+#. Plugin Name of the plugin
+#: awsm-embed.php:283
+msgid "Embed Any Document"
+msgstr "Embed Any Document"
+
+#: inc/settings.php:89 inc/settings.php:90
+msgid "How to Embed Documents?"
+msgstr "Hur bäddar man in dokument?"
+
+#: inc/settings.php:73
+msgid "Like the plugin?"
+msgstr "Gillar du tillägget?"
+
+#: inc/settings.php:17 inc/popup.php:46 blocks/document/modules/inspector.js:50
+msgid "Width"
+msgstr "Bredd"
+
+#: inc/settings.php:15
+msgid "Default Size"
+msgstr "Standardstorlek"
+
+#: inc/popup.php:90
+msgid "Insert"
+msgstr "Infoga"
+
+#: inc/settings.php:32 inc/popup.php:55 blocks/document/modules/inspector.js:59
+msgid "For all users"
+msgstr "För alla användare"
+
+#: inc/settings.php:29 inc/popup.php:53 blocks/document/modules/inspector.js:58
+msgid "Show Download Link"
+msgstr "Visa nedladdningslänk"
+
+#: inc/popup.php:43
+msgid "Advanced Options"
+msgstr "Avancerade alternativ"
+
+#: inc/popup.php:26
+msgid "Enter document URL"
+msgstr "Ange URL för dokumentet"
+
+#: inc/popup.php:19
+msgid "Add from URL"
+msgstr "Lägg till från URL"
+
+#: inc/popup.php:16
+msgid "Upload Document"
+msgstr "Ladda upp dokument"
+
+#: awsm-embed.php:342
+msgid "Buy Pro Version"
+msgstr "Köp Pro-version"
+
+#: inc/settings.php:32 inc/popup.php:55 blocks/document/modules/inspector.js:61
+msgid "No Download"
+msgstr "Ingen nedladdning"
+
+#: inc/settings.php:32 inc/popup.php:55 blocks/document/modules/inspector.js:60
+msgid "For Logged-in users"
+msgstr "För inloggade användare"
+
+#: inc/popup.php:81
+msgid "Shortcode Preview"
+msgstr "Förhandsgranskning av kortkod"
+
+#: inc/popup.php:66 blocks/document/modules/inspector.js:40
+msgid "Microsoft Office Online"
+msgstr "Microsoft Office online"
+
+#: inc/settings.php:73
+msgid "Rate Now!"
+msgstr "Betygsätt nu!"
+
+#: inc/settings.php:25
+msgid "Enter values in pixels or percentage (Example: 500px or 100%)"
+msgstr "Ange värden i pixlar eller procent (Exempel: 500px eller 100%)"
+
+#: inc/settings.php:79
+msgid "Open a Ticket"
+msgstr "Öppna ett ärende"
+
+#: inc/popup.php:90
+msgid "Loading..."
+msgstr "Laddar…"
+
+#: blocks/document/main.js:24
+msgid "Document"
+msgstr "Dokument"
+
+#: inc/popup.php:64 inc/popup.php:71 blocks/document/modules/inspector.js:66
+msgid "Viewer"
+msgstr "Tittare"
+
+#: awsm-embed.php:133
+msgid "Settings"
+msgstr "Inställningar"
+
+#: inc/popup.php:28 awsm-embed.php:175
+msgid "Add URL"
+msgstr "Lägg till URL"
+
+#: awsm-embed.php:167 awsm-embed.php:194
+msgid "Download"
+msgstr "Ladda ner"
+
+#: awsm-embed.php:291
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte tillräckliga behörigheter för att komma åt den här sidan."
+
+#: awsm-embed.php:272
+msgid "No Url Found"
+msgstr "Ingen URL hittades"
+
+#: awsm-embed.php:174
+msgid "Invalid URL"
+msgstr "Ogiltig URL"
+
+#: awsm-embed.php:173
+msgid "Nothing to insert"
+msgstr "Inget att infoga"
+
+#: inc/popup.php:8 awsm-embed.php:106 blocks/document/main.js:71
+msgid "Add Document"
+msgstr "Lägg till dokument"
+
+#: awsm-embed.php:176
+msgid "Verifying..."
+msgstr "Verifierar…"

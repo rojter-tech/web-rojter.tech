@@ -1,0 +1,67 @@
+version: '3.7'
+services:
+
+  db:
+    image: mariadb:10.4.3-bionic
+    secrets:
+      - mainpw
+      - mainweb_db
+      - mainweb_user
+    environment:
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/mainpw
+      MYSQL_PASSWORD_FILE: /run/secrets/mainpw
+      MYSQL_DATABASE_FILE: /run/secrets/mainweb_db
+      MYSQL_USER_FILE: /run/secrets/mainweb_user
+    volumes:
+      - /var/dockerdata/db:/var/lib/mysql
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+
+  myadmin:
+    image: phpmyadmin/phpmyadmin:edge-4.8
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=db
+    ports:
+     - 8081:80
+    volumes:
+     - sessions:/sessions
+    links:
+     - db
+
+  rojter_tech:
+    image: rojtertech/wp:latest
+    secrets:
+      - mainpw
+      - mainweb_db
+      - mainweb_user
+    ports:
+      - 80:80
+      - 443:443
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_PASSWORD_FILE: /run/secrets/mainpw
+      WORDPRESS_DB_NAME_FILE: /run/secrets/mainweb_db
+      WORDPRESS_DB_USER_FILE: /run/secrets/mainweb_user
+    volumes:
+      - www-data:/var/www/html
+      - /var/dockerdata/certs/rojter.tech:/etc/ssl/certs
+    links:
+      - db
+
+networks:
+  overlay:
+
+secrets:
+  mainpw:
+    external: true
+  mainweb_db:
+    external: true
+  mainweb_user:
+    external: true
+
+volumes:
+  sessions:
+  www-data:

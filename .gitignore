@@ -1,0 +1,8 @@
+*.7z
+*.pem
+*.ova
+*.tar
+*.tar.gz
+wp-config.php
+wp-config.php*
+.swp*
